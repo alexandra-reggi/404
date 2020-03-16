@@ -1,0 +1,91 @@
+body{
+    background-image: url("failure.gif");
+    background-size: cover;
+    margin:0;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-evenly;
+    height: 35px;
+    padding: 15px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(135, 206, 250, 0.267);
+    box-shadow: 5px 5px 36px white;
+}
+
+
+h1{
+    margin-top: -7px;
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+    text-align: end;
+    color: white;
+}
+
+
+main{
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#rond{
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.041);
+    width: 229px;
+    height: 172px;   
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    height: 67px;
+    background-color: rgba(135, 206, 250, 0.267);
+    box-shadow: -14px -1px 24px white;
+}
+
+
+#flèche {
+    margin-top: -76px;
+    padding-top: 34px;
+    width: 231px;
+    height: 145px;
+}
+
+
+.girof{
+    width: 68px;
+    height: 64px;
+    margin-top: -14px;
+}
+   
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    margin-top: -43px;
+}
+
+
+#phrase{
+    color: white;
+    font-size: x-large;
+    margin-top: 16%;
+}
